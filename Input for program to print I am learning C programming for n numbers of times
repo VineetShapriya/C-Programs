@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    
+    printf("Enter the number of times you want to print the message: ");
+    scanf("%d", &n);
+    
+    int count = 1;
+    while (count <= n) {
+        printf("I am learning C programming\n");
+        count++;
+    }
+
+    return 0;
+}
